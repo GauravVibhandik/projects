@@ -1,0 +1,264 @@
+label {
+  display: block;
+  margin-top: 10px;
+}
+body{
+  background-color: rgb(16, 16, 16,0.01);
+  
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.tableStructure {
+  /* width: 100%; */
+  height: 96vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+  
+.table {
+  /* border: 0.2rem solid rgb(75, 77, 75);
+  border-bottom-left-radius: 10px; */
+  /* width: 50rem;
+  height: 15rem; */
+  border-collapse: collapse;
+        border-radius: 10px;
+        border-style: hidden; /* hide standard table (collapsed) border */
+        box-shadow: 2px 5px 1px 3px #666;
+        margin-bottom: 3rem;
+}
+
+  
+th {
+  /* border: 1px solid black; */
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  text-align: center;
+  /* background-color: rgb(172, 172, 169); */
+}
+  
+td {
+  
+  /* border: 1px solid black; */
+  
+  text-align: center;
+}
+
+.viewSubmitted{
+  margin-top: 2rem;
+}
+
+.start{
+  margin-top: 2rem;
+  
+}
+
+.btn{
+  background-color: rgba(13, 77, 13, 0.6);
+  color:white;
+}
+
+.btn:hover{
+  background-color: green;
+}
+
+.adminTables{
+  margin-top : 4rem;
+  margin-left: 4rem;
+}
+
+.navbar{
+  background-color: rgb(38, 66, 38,0.8);
+  /* font-family: "Courier New", "Lucida Console" , monospace; */
+  font-size: 1.2rem;
+  position: sticky;
+  width: 100%; 
+  z-index: 9999; 
+      /* display: flex;
+      border-bottom: solid 1px var(--primary-color); */
+}
+
+
+
+/* .nav-link:hover{
+background-color: darkgray;
+color:rgb(0, 94, 255);
+shape-rendering: crispEdges;
+} */
+
+.navbar-brand,.nav-link{
+  color: white;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+
+.nav-link:link, .nav-link:visited {
+  
+  color: white;
+  /* border: 2px green; */
+  /* padding: 10px 20px; */
+  border-radius: 1rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.nav-link:hover, .nav-link:active {
+  background-color: rgb(127, 138, 127);
+  color: white;
+  
+}
+
+.logo{
+  color: rgba(114, 190, 114, 0.9);
+  font-size: 1.4rem;
+  font-weight: 900;
+  font-family: "Lucida Handwriting";
+}
+
+/* body, html { 
+  font-family: "Lucida Handwriting","",  Cursive;
+} */
+
+.btn-admin{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.btn-submitPaper{
+  /* padding-left: 1rem;
+  padding-right: 2rem; */
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.btn-ch{
+  /* padding: 0%; */
+  background-color: rgb(38, 66, 38,0.6);
+  font-size:smaller;
+  border-radius: 0.3rem;
+  border: 0rem;
+  color: #f7f7f7;
+}
+
+.btn-approve:hover{
+  background-color: rgb(57, 131, 19);
+}
+
+.btn-delete:hover{
+  background-color: red;
+}
+
+.textBox{
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-right: 25rem;
+}
+
+.startHome{
+   margin-top: 5rem;
+  /* margin-left: 37rem; */
+  justify-content: center;
+  align-items: center;
+}
+
+.myDiv{
+  /* background-image: url("D:/CDAC/Project/frontend kamboj 1.42 final/public/paper-brain.png"); */
+  background-image: url("/public/paper-brain.jpg");
+  /* background-size: 100%; */
+   /* z-index: 9999;   */
+  width: 100%; 
+  height: 90%; 
+  position: absolute; 
+  background-repeat : no-repeat;
+  background-attachment: fixed;
+	background-size: cover;
+  text-align: center;
+} 
+
+/* .myDiv {
+  background-image: 
+  url(
+"C:\Users\hp\Desktop\TheProject\frontend kamboj 1.41 final\src\components\TopicHome.png");
+  background-size: "cover";
+  height: 100vh;
+ 
+  background-repeat:no-repeat; 
+} */
+
+.subDiv {
+                position: absolute;
+                bottom: 0px;
+                left: 80%;
+                /* width: 100%; */
+                border-radius: 10px;
+                background-color: rgb(16, 16, 16,0.2);
+                
+            }
+
+.headings{
+  color: gray;
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: bolder;
+}
+
+.inputOfSubmitpaper{
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+
+
+
+.leftPane {
+  background-color: rgba(130, 172, 58, 0.3);
+ left: 9%;
+ border-radius: 6%;
+ 
+}
+
+.imageHome{
+  border-radius:3%;
+  padding: 20px 25px 30px;
+}
+
+#topicHome{
+  border-radius: 5%;
+  background-color: rgba(130, 172, 58, 0.001);
+}
+
+.image{
+  margin: 1rem;
+  width: 30%;
+  height: 8rem;
+  border-radius: 1rem;
+}
